@@ -90,10 +90,9 @@ footer {
 .formularioContacto .inputFormulario {
     color: grey;
     margin: 15px;
-    padding: 25px;
     border: 2px;
     border-radius: 10px;
-    width: 33%;
+    width: 340px;
     box-shadow: 7px 13px 37px rgb(140, 139, 139)
 }
 
@@ -101,6 +100,10 @@ footer {
     font-size: small;
     color: black;
     text-transform: none;
+}
+
+.precioCards {
+    font-size: 20px;
 }
 
 .boton {
@@ -115,6 +118,7 @@ footer {
 
 
 
+
 @media (max-width: 549px) {
     .textoProductos {
         font-size: 20px;
@@ -122,13 +126,6 @@ footer {
 
     .tituloDeInfo {
         font-size: 17px;
-    }
-}
-
-@media (max-width:1018px) {
-    .infoDecathlon {
-        margin: 10%;
-        margin-top: 5%;
     }
 }
 

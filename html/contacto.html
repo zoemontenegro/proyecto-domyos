@@ -45,33 +45,46 @@
         </nav>
     </header>
 
-  <main>
-    <section>
-    <h1 class="contactanosFormulario">¿Tenés dudas? Contactanos</h1>
-
-    <div class="paginaContacto">
-        <form class="formularioContacto">
-            <input class="inputFormulario" type="text" placeholder="Ingrese su nombre">
-            <input class="inputFormulario" type="text" placeholder="Ingrese su apellido">
-            <input class="inputFormulario" type="email" placeholder="Ingrese su E-mail">
-            <textarea class="inputFormulario" placeholder="Deje su mensaje" name="" id="" cols="30"
-                rows="10"></textarea>
-            <input class="inputFormulario" type="submit">
-            <input class="inputFormulario" type="reset">
-        </form>
-    </div>
-</section>
-</main>
+    <main>
+        <section>
+            <h1 class="contactanosFormulario">¿Tenés dudas? Contactanos</h1>
+            <div class="paginaContacto">
+                <form class="formularioContacto">
+                    <div class="form-floating inputFormulario">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Ingrese su nombre</label>
+                    </div>
+                    <div class="form-floating inputFormulario">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Ingrese su apellido</label>
+                    </div>
+                    <div class="form-floating mb-3 inputFormulario">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Ingrese su E-mail</label>
+                    </div>
+                    <div class="form-floating inputFormulario">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Su mensaje</label>
+                    </div>
+                    <input class="inputFormulario" type="submit">
+                    <input class="inputFormulario" type="reset">
+                </form>
+            </div>
+        </section>
+    </main>
     <footer class="container">
         <div class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3 textoMenu">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 textoMenu">Home</a></li>
                 <li class="nav-item"><a href="indumentaria.html" class="nav-link px-2 textoMenu">Indumentaria</a></li>
                 <li class="nav-item"><a href="accesorios.html" class="nav-link px-2 textoMenu">Accesorios</a></li>
                 <li class="nav-item"><a href="acerca.html" class="nav-link px-2 textoMenu">Acerca</a></li>
                 <li class="nav-item"><a href="contacto.html" class="nav-link px-2 textoMenu">Contacto</a></li>
             </ul>
-            <p class="text-center text-muted">&copy; 2022 Todos los derechos reservados</p>
+            <p class="text-center text-muted">&copy; 2023 Todos los derechos reservados</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
