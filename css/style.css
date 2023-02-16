@@ -107,19 +107,28 @@ footer {
 }
 
 .boton {
+    background-color: #d6ccc2;
+    margin: 1%;
+}
+
+.botonFormulario {
     background-color: white;
     margin: 20px;
-    color:#d6ccc2;
+    color: #d6ccc2;
     border-color: white;
+}
+
+
+.botonFormulario:hover {
+    background-color: #ccbba9;
+    color: white;
+    border-color: #ccbba9;
 }
 
 .card:hover {
     box-shadow: 5px 5px 5px 4px rgb(173, 170, 170);
     transition: all 0.5s;
 }
-
-
-
 
 @media (max-width: 549px) {
     .textoProductos {
@@ -132,9 +141,7 @@ footer {
 }
 
 .boton:hover {
-    border-color:rgb(238, 238, 238);
-    background-color: rgb(238, 238, 238)
-    
+    background-color: rgb(211, 195, 180)
 }
 
 .textoMenu:hover {
