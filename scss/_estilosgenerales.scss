@@ -1,0 +1,65 @@
+body {
+    font-family: $font-family_1;
+}
+
+ul {
+    text-align: center;
+}
+
+.textoMenu {
+    color: $color_5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+        color: $color_1;
+        font-size: 17px;
+        transition: all 0.2s;
+    }
+}
+
+.portadasImagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloDeInfo {
+    text-align: center;
+    background-color: $background-color_1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4%;
+}
+
+.infoDecathlon {
+    color: $color_2;
+    font-size: medium;
+    margin: 20%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.textoProductos {
+    background-color: $background-color_1;
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.precioCards {
+    font-size: 20px;
+}
+
+.boton {
+    background-color: $background-color_1;
+    margin: 1%;
+
+    &:hover {
+        background-color: $background-color_4;
+    }
+}

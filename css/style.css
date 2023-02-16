@@ -1,152 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
-
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
-
+@import "https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap";
 body {
-    font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
 }
 
 ul {
-    text-align: center;
-}
-
-header {
-    margin: 20px;
-}
-
-footer {
-    margin: 30px;
+  text-align: center;
 }
 
 .textoMenu {
-    color: #ccbba9;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: #d6ccc2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.textoMenu:hover {
+  color: #ccbba9;
+  font-size: 17px;
+  transition: all 0.2s;
 }
 
 .portadasImagen {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .tituloDeInfo {
-    text-align: center;
-    background-color: #d6ccc2;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 4%;
+  text-align: center;
+  background-color: #d6ccc2;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 4%;
 }
 
 .infoDecathlon {
-    color: black solid;
-    font-size: medium;
-    margin: 20%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  color: black;
+  font-size: medium;
+  margin: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-
-.headerFooterLogo {
-    text-align: left;
-    margin-bottom: -7px;
-    margin-top: 7px;
-}
-
 
 .textoProductos {
-    background-color: #d6ccc2;
-    text-align: center;
-    font-size: 25px;
-    margin: 5%;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.contactanosFormulario {
-    text-align: center;
-    color: white;
-    background-color: #d6ccc2;
-    padding: 3%;
-}
-
-.formularioContacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.paginaContacto {
-    background-color: #d6ccc2;
-    padding: 5%;
-}
-
-.formularioContacto .inputFormulario {
-    color: grey;
-    margin: 15px;
-    border: 2px;
-    border-radius: 10px;
-    width: 340px;
-    box-shadow: 7px 13px 37px rgb(140, 139, 139)
-}
-
-.webDecathlon {
-    font-size: small;
-    color: black;
-    text-transform: none;
+  background-color: #d6ccc2;
+  text-align: center;
+  font-size: 25px;
+  margin: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .precioCards {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .boton {
-    background-color: #d6ccc2;
-    margin: 1%;
+  background-color: #d6ccc2;
+  margin: 1%;
+}
+.boton:hover {
+  background-color: rgb(211, 195, 180);
+}
+
+header {
+  margin: 20px;
+}
+
+.headerFooterLogo {
+  text-align: left;
+  margin-bottom: -7px;
+  margin-top: 7px;
+}
+
+.webDecathlon {
+  font-size: small;
+  color: black;
+  text-transform: none;
+}
+
+.contactanosFormulario {
+  text-align: center;
+  color: white;
+  background-color: #d6ccc2;
+  padding: 3%;
+}
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formularioContacto .inputFormulario {
+  color: grey;
+  margin: 15px;
+  border: 2px;
+  border-radius: 10px;
+  width: 340px;
+  box-shadow: 7px 13px 37px rgb(140, 139, 139);
+}
+
+.paginaContacto {
+  background-color: #d6ccc2;
+  padding: 5%;
 }
 
 .botonFormulario {
-    background-color: white;
-    margin: 20px;
-    color: #d6ccc2;
-    border-color: white;
+  background-color: white;
+  margin: 20px;
+  color: #d6ccc2;
+  border-color: white;
 }
-
-
 .botonFormulario:hover {
-    background-color: #ccbba9;
-    color: white;
-    border-color: #ccbba9;
-}
-
-.card:hover {
-    box-shadow: 5px 5px 5px 4px rgb(173, 170, 170);
-    transition: all 0.5s;
+  background-color: #ccbba9;
+  color: white;
+  border-color: #ccbba9;
 }
 
 @media (max-width: 549px) {
-    .textoProductos {
-        font-size: 20px;
-    }
-
-    .tituloDeInfo {
-        font-size: 17px;
-    }
-}
-
-.boton:hover {
-    background-color: rgb(211, 195, 180)
-}
-
-.textoMenu:hover {
-    color: #c9c3bc;
+  .textoProductos {
+    font-size: 20px;
+  }
+  .tituloDeInfo {
     font-size: 17px;
-    transition: all 0.4s;
-
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
