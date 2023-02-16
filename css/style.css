@@ -107,8 +107,10 @@ footer {
 }
 
 .boton {
-    background-color: #d6ccc2;
-    margin: 1%;
+    background-color: white;
+    margin: 20px;
+    color:#d6ccc2;
+    border-color: white;
 }
 
 .card:hover {
@@ -130,7 +132,9 @@ footer {
 }
 
 .boton:hover {
-    background-color: rgb(211, 195, 180)
+    border-color:rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238)
+    
 }
 
 .textoMenu:hover {
