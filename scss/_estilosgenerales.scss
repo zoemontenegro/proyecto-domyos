@@ -55,6 +55,13 @@ ul {
     font-size: 20px;
 }
 
+.card {
+	&:hover {
+		box-shadow: 5px 5px 5px 4px rgb(173, 170, 170);
+		transition: all 0.5s;
+	}
+}
+
 .boton {
     background-color: $background-color_1;
     margin: 1%;
